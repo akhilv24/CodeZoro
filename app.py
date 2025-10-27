@@ -19,12 +19,12 @@ menu = st.sidebar.radio("Navigate", ["Home", "➕ Add Program", "Edit/Delete"])
 
 # ==================== HOME PAGE ====================
 if menu == "Home":
-    st.title("📚 My Lab Programs")
+    st.title(" My Lab Programs")
 
     subjects = ["DWDM", "ML"]   # 🔸 Can make dynamic later
 
     for subject in subjects:
-        st.markdown(f"## 📌 {subject}")
+        st.markdown(f"## {subject}")
         programs = get_programs_by_subject(subject)
 
         if not programs:
