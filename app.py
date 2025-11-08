@@ -97,7 +97,7 @@ elif menu == "Edit/Delete":
             )
 
             # Convert lab_number to int for number_input
-            lab_val = int(prog_data['lab_number']) if prog_data['lab_number'] else 1
+            lab_val = int(prog_data['lab_number']) if str(prog_data['lab_number']).isdigit() else 1
             new_lab = st.number_input("Lab Number", min_value=1, step=1, value=lab_val)
 
             new_description = st.text_area("Description", value=prog_data['description'])
