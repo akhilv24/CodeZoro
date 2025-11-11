@@ -1,4 +1,4 @@
-# ⚔️ CodeZoro – Lab Programs based App for Students for Saving their Program for Studying Purpose Etc
+# ⚔️ CodeZoro – Lab Programs based App for Students for Saving their Code for Further Purpose/Studying Etc
 
 CodeZoro is a **Streamlit-based Lab Program Management Web App** that allows you to **store, view, and manage your lab programs** easily — categorized neatly by subjects like **ML** and **DWDM**.
 
