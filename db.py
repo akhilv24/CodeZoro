@@ -75,7 +75,7 @@ def update_program(pid, title, subject, lab_number, description, code):
 def delete_program(pid):
     """Delete a program by ID."""
     conn = get_connection()
-    c = conn.cursor()
+    c = conn.cursor()g
     c.execute("DELETE FROM programs WHERE id=?", (pid,))
     conn.commit()
     conn.close()
