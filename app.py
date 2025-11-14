@@ -6,7 +6,7 @@ from db import (
     get_program_by_id,
     update_program,
     delete_program,
-    get_programs_by_subject   # ✅ Make sure this is defined in db.py
+    get_programs_by_subject
 )
 
 # ==================== INITIAL SETUP ====================
