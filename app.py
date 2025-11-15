@@ -9,6 +9,19 @@ from db import (
     get_programs_by_subject
 )
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="CodeZoro",
+    page_icon="⚡",
+    menu_items={
+        "Get help": None,
+        "Report a bug": None,
+        "About": None
+    }
+)
+
+
 # ==================== INITIAL SETUP ====================
 st.set_page_config(page_title="CodeZoro", page_icon="💻", layout="wide")
 init_db()
